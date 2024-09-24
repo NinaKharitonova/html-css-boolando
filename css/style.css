@@ -32,53 +32,58 @@ img {
 
 .products .products-card {
   flex: 1 0 30%;
-  padding: 1rem;
   position: relative;
+  cursor: pointer;
 
-  background-color: white
+  background-color: white;
   min-height: 300px;
+}
+
+/* # HOVER */
+
+.products .products-card :hover {
+  background-color: #4caf50;
 }
 
 /* # DISCOUNT */
 
-.products-card .card-discount-cuore{
-    position: absolute;
-    top: 21px;
-    right: 16px;
-    background-color: white;
-    width: 21px;
-    height: 20px;
-    line-height: 20px;
-    text-align: center;
-    
+.products-card .card-discount-cuore {
+  position: absolute;
+  top: 21px;
+  right: 1px;
+  background-color: white;
+  width: 21px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
 }
 
-.products-card .card-discount-sconto{
-    position: absolute;
-    top: 325px;
-    right: 214px;
-    background-color: #F44336;
-    width: 53px;
-    height: 22px;
-    line-height: 23px;
-    text-align: center;
-    color: white;
+.products-card .card-discount-sconto {
+  position: absolute;
+  top: 325px;
+  right: 224px;
+  background-color: #f44336;
+  width: 53px;
+  height: 22px;
+  line-height: 23px;
+  text-align: center;
+  color: white;
 }
 
-.products-card .card-discount-sostenibilità{
-    position: absolute;
-    top: 325px;
-    right: 126px;
-    background-color: #4CAF50;
-    width: 85px;
-    height: 22px;
-    line-height: 23px;
-    text-align: center;
-    color: white;
+.products-card .card-discount-sostenibilità {
+  position: absolute;
+  top: 325px;
+  right: 136px;
+  background-color: #4caf50;
+  width: 85px;
+  height: 22px;
+  line-height: 23px;
+  text-align: center;
+  color: white;
 }
-}
+
 .products-card .card-description > h6 {
-
+  margin-bottom: 1rem;
 }
 
 .products-card .card-description > p {
