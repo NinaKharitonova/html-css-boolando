@@ -15,6 +15,10 @@
   max-width: 100%;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* # PRODUCTS-CARD */
 
 .products > .container {
@@ -35,11 +39,46 @@
   min-height: 300px;
 }
 
-img {
-  max-width: 100%;
+/* # DISCOUNT */
+
+.products-card .card-discount-cuore{
+    position: absolute;
+    top: 21px;
+    right: 16px;
+    background-color: white;
+    width: 21px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    
 }
 
+.products-card .card-discount-sconto{
+    position: absolute;
+    top: 325px;
+    right: 214px;
+    background-color: #F44336;
+    width: 53px;
+    height: 22px;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+}
+
+.products-card .card-discount-sostenibilità{
+    position: absolute;
+    top: 325px;
+    right: 126px;
+    background-color: #4CAF50;
+    width: 85px;
+    height: 22px;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+}
+}
 .products-card .card-description > h6 {
+
 }
 
 .products-card .card-description > p {
